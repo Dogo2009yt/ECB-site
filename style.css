@@ -1,0 +1,387 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(14,0,247,1) 35%, rgba(16,238,34,1) 55%, rgba(0,0,0,1) 90%);
+}
+header {
+    background-color: #00d9ff;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-family: monospace;
+    height: 40px;
+}
+#squadre{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 10px;
+}
+.Pat{
+    width: 300px;
+    aspect-ratio: 3 / 4;
+    border-radius: 10px;
+    margin: 0 auto;
+
+    background-size: 350px;
+    background-position: 70%;
+
+    overflow: hidden;
+}
+.PatS{
+    
+    width:100%;
+    height: 100%;
+    background:  linear-gradient(0deg, rgb(255, 0, 0) 0%, rgba(255, 0, 0, 0.411) 80%);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+.PatS:hover{
+    opacity: 1;
+}
+.PatS:hover .PatS p , .PatS:hover .PatTB {
+    transform: translateY(0);
+}
+
+.PatS p{
+    color:white;
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    transform: translateY(-20px);
+}
+.PatTB{
+    width: fit-content;
+    padding: 7px 20px;
+    margin: 20% auto;
+    border: solid white 2px;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 15px;
+    transition: all 0.2s ease-in-out;
+    transform: translateY(-20px);
+}
+.PatTB:hover{
+    background-color: #ae00ff;
+    border: solid #ae00ff 2px;
+}
+a{
+    text-decoration: none;
+}
+.Tec{
+    width: 300px;
+    aspect-ratio: 3 / 4;
+    border-radius: 10px;
+    margin: 0 auto;
+
+    background-size: 350px;
+    background-position: 70%;
+
+    overflow: hidden;
+}
+.TecS{
+    
+    width:100%;
+    height: 100%;
+    background:  linear-gradient(0deg, rgb(0, 17, 255) 0%, rgba(0, 26, 255, 0.432) 80%);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+.TecS:hover{
+    opacity: 1;
+}
+.TecS:hover .TecS p , .Tec:hover .TecTB {
+    transform: translateY(0);
+}
+
+.TecS p{
+    color:white;
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    transform: translateY(-20px);
+}
+.TecTB{
+    width: fit-content;
+    padding: 7px 20px;
+    margin: 20% auto;
+    border: solid white 2px;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 15px;
+    transition: all 0.2s ease-in-out;
+    transform: translateY(-20px);
+}
+.TecTB:hover{
+    background-color: #ae00ff;
+    border: solid #ae00ff 2px;
+}
+.Jho{
+    width: 300px;
+    aspect-ratio: 3 / 4;
+    border-radius: 10px;
+    margin: 0 auto;
+
+    background-size: 350px;
+    background-position: 70%;
+
+    overflow: hidden;
+}
+.JhoS{
+    
+    width:100%;
+    height: 100%;
+    background:  linear-gradient(0deg, rgb(17, 145, 0) 0%, rgba(0, 138, 18, 0.432) 80%);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+.JhoS:hover{
+    opacity: 1;
+}
+.JhoS:hover .JhoS p , .Jho:hover .JhoTB {
+    transform: translateY(0);
+}
+
+.JhoS p{
+    color:white;
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    transform: translateY(-20px);
+}
+.JhoTB{
+    width: fit-content;
+    padding: 7px 20px;
+    margin: 20% auto;
+    border: solid white 2px;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 15px;
+    transition: all 0.2s ease-in-out;
+    transform: translateY(-20px);
+}
+.JhoTB:hover{
+    background-color: #ae00ff;
+    border: solid #ae00ff 2px;
+}
+.Luk{
+    width: 300px;
+    aspect-ratio: 3 / 4;
+    border-radius: 10px;
+    margin: 0 auto;
+
+    background-size: 350px;
+    background-position: 70%;
+
+    overflow: hidden;
+}
+.LukS{
+    
+    width:100%;
+    height: 100%;
+    background:  linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.432) 80%);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+.LukS:hover{
+    opacity: 1;
+}
+.LukS:hover .LukS p , .Luk:hover .LukTB {
+    transform: translateY(0);
+}
+
+.LukS p{
+    color:white;
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    transform: translateY(-20px);
+}
+.LukTB{
+    width: fit-content;
+    padding: 7px 20px;
+    margin: 20% auto;
+    border: solid white 2px;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 15px;
+    transition: all 0.2s ease-in-out;
+    transform: translateY(-20px);
+}
+.LukTB:hover{
+    background-color: #ff0000;
+    border: solid #ff0000 2px;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1 {
+    color: #6441a5;
+}
+p {
+    line-height: 1.6;
+}
+.team-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.team-member {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    overflow: hidden;
+    border: 2px solid #ffffff;
+    background-color: rgba(255, 228, 196, 0.562);
+}
+.team-member img {
+    width: 100%;
+    height: 100%;
+    transition: opacity 1.2s ease;
+}
+.team-member:hover img {
+    opacity: 0.3;
+}
+.team-member .info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(125, 24, 165, 0.8);
+    color: white;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+.team-member:hover .info {
+    opacity: 1;
+}
+.twitch-section {
+    background-color: rgba(255, 228, 196, 0.562);
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+    border: 2px solid #ffffff;
+}
+.twitch-section h2 {
+    color: #6441a5;
+}
+.twitch-link {
+    display: block;
+    margin: 10px 0;
+    color: #6441a5;
+    text-decoration: none;
+    font-weight: bold;
+}
+.twitch-link:hover {
+    text-decoration: line-through;
+    color: #8b008b;
+}
+.youtube-section {
+    background-color: rgba(255, 228, 196, 0.562);
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+    border: 2px solid #ffffff;
+}
+.youtube-section h2 {
+    color: #c4302b;
+}
+.twitch-embed {
+    background-color: rgba(255, 228, 196, 0.562);
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+    border: 2px solid #ffffff;
+}
+.made{
+    text-align: center;
+    position: relative;
+}
+/* Stili generali */
+#jt, #pt, #tt, #Ly {
+    position: relative;
+}
+
+/* Stili per schermi più grandi */
+@media (min-width: 768px) {
+    #jt {
+        top: -310px;
+        left: 150px;
+    }
+    #pt {
+        top: 0px;
+        right: -900px;
+    }
+    #tt {
+        top: 30px;
+        left: 150px;
+    }
+    #Ly {
+        top: -280px;
+        right: -900px;
+    }
+    .made{
+        top: -200px;
+    }
+}
+
+/* Stili per schermi piccoli (come telefoni) */
+@media (max-width: 767px) {
+    #jt {
+        top: -140px;
+        left: 10%;
+    }
+    #pt {
+        top: 0px;
+        left: 10%;
+    }
+    #tt {
+        top: 190px;
+        left: 10%;
+    }
+    #Ly {
+        top: 50px;
+        left: 10%;
+    }
+    .made{
+        top: 70px;
+    }
+}
