@@ -334,10 +334,25 @@ p {
 .made{
     text-align: center;
     position: relative;
+    color: white;
 }
 /* Stili generali */
 #jt, #pt, #tt, #Ly {
     position: relative;
+}
+#class{
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    background-color : whitesmoke;
+    cursor: pointer;
+}
+#class a{
+    color: #6441a5;
+    font-size: xx-large;
+    font-weight: bold;
+    position: relative;
+    top:5px;
 }
 
 /* Stili per schermi più grandi */

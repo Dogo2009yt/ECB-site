@@ -1,0 +1,57 @@
+#classifica{
+    color: white;
+}
+#uposto{
+    width: 7%;
+    height: 7%;
+    position: relative;
+    left: 400px;
+    top: 30px;
+}
+#sposto{
+    width: 7%;
+    height: 7%;
+    position: relative;
+    left: 300px;
+    top: 210px;
+}
+#tposto{
+    width: 7%;
+    height: 7%;
+    position: relative;
+    left: 200px;
+    top: 360px;
+}
+#qposto{
+    width: 7%;
+    height: 7%;
+    position: relative;
+    left: 100px;
+    top: 510px;
+}
+.uposto{
+    color: white;
+    position: relative;
+    top:-60px;
+}
+.sposto{
+    color: white;
+    position: relative;
+    top:60px;
+}
+.tposto{
+    color: white;
+    position: relative;
+    top: 150px;
+}
+.qposto{
+    color: white;
+    position: relative;
+    top:250px;
+}
+.madec{
+    text-align: center;
+    position: relative;
+    top: 300px;
+    color: white;
+}
