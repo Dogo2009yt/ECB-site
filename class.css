@@ -1,57 +1,68 @@
-#classifica{
-    color: white;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-#uposto{
-    width: 7%;
-    height: 7%;
-    position: relative;
-    left: 400px;
-    top: 30px;
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
-#sposto{
-    width: 7%;
-    height: 7%;
-    position: relative;
-    left: 300px;
-    top: 210px;
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 20px;
+    padding: 20px;
+    background-color: transparent;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
-#tposto{
-    width: 7%;
-    height: 7%;
-    position: relative;
-    left: 200px;
-    top: 360px;
-}
-#qposto{
-    width: 7%;
-    height: 7%;
-    position: relative;
-    left: 100px;
-    top: 510px;
-}
-.uposto{
-    color: white;
-    position: relative;
-    top:-60px;
-}
-.sposto{
-    color: white;
-    position: relative;
-    top:60px;
-}
-.tposto{
-    color: white;
-    position: relative;
-    top: 150px;
-}
-.qposto{
-    color: white;
-    position: relative;
-    top:250px;
-}
-.madec{
+
+h1 {
     text-align: center;
-    position: relative;
-    top: 300px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+thead {
+    background-color: transparent;
     color: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    font-weight: bold;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+tbody tr:nth-child(even) {
+    background-color: transparent;
+}
+
+tbody tr:hover {
+    background-color: transparent;
+}
+
+
+.testo{
+   color: black; 
+   font-size: xx-large;
+   font-weight: bold;
 }
