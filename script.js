@@ -3,16 +3,16 @@ const teams = [
     {
         image: 'img/2.png',
         name: 'TECHNOTITAINS',
+        points: 4
+    },
+    {
+        image: 'img/1.png',
+        name: 'KEYER',
         points: 3
     },
     {
         image: 'img/3.png',
         name: 'CLASSICGG',
-        points: 2
-    },
-    {
-        image: 'img/1.png',
-        name: 'KEYER',
         points: 1
     }
 ];
